@@ -1,0 +1,32 @@
+footer{
+  background-color: #141414;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  color: #fff;
+}
+
+.politicas{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.politicas a:hover{
+  color:  #a3a3a3;
+}
+
+@media (max-width: 700px){
+.footer{
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+.politicas{
+  margin-bottom: 50px;
+}
+}

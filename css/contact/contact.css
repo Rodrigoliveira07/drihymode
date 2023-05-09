@@ -1,0 +1,14 @@
+.contact-main{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  flex: 1;
+}
+
+@media (max-width: 600px){
+  .contact-main{
+    font-size: 20px;
+  }
+}

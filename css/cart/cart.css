@@ -1,0 +1,149 @@
+.maincart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.maincart img {
+  width: 200px;
+  height: auto;
+}
+
+/* START TABLE */
+
+.table-cart {
+  width: 900px;
+  text-align: center;
+}
+
+.table-cart th {
+  padding: 8px;
+}
+
+.table-cart td {
+  padding: 8px;
+}
+
+#buttonremove {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  color: #000;
+  font-weight: bold;
+  border: none;
+}
+
+#buttonremove a {
+  color: #000;
+}
+
+/* END TABLE */
+
+/* CONFIRM BUTTON */
+
+.continuarbutton {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 700px;
+}
+
+.continuarbutton a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* CONFIRM BUTTON */
+
+/* END MAIN */
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 920px) {
+  .table-cart {
+    width: 800px;
+    font-size: 15px;
+  }
+
+  .table-cart th {
+    padding: 5px;
+  }
+
+  .table-cart td {
+    padding: 5px;
+  }
+
+  .continuarbutton {
+    margin-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .table-cart {
+    width: 600px;
+  }
+
+  .table-cart td img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .continuarbutton {
+    margin-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .table-cart {
+    width: 400px;
+    font-size: 9px;
+  }
+
+  .maincart table img {
+    height: 120px;
+  }
+
+  .continuarbutton {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 414px) {
+  .table-cart {
+    width: 350px;
+    font-size: 8px;
+  }
+
+  .maincart table img {
+    height: 100px;
+  }
+
+  .continuarbutton {
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .table-cart {
+    width: 100px;
+    text-align: center;
+  }
+
+  .table-cart th {
+    padding: 2px;
+  }
+
+  .table-cart td {
+    padding: 2px;
+  }
+}
