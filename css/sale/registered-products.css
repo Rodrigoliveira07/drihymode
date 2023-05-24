@@ -1,0 +1,10 @@
+.registered-products img{
+  width: 200px;
+  height: auto;
+}
+
+.registered-products{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.container-register{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.register-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.product-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-add {
+    padding: 10px;
+    color: #fff;
+    background-color: #141414;
+    border-radius: 4px;
+    text-align: center;
+    width: 305px;
+}
+
+@media (max-width: 800px){
+  .register-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

@@ -10,3 +10,6 @@
 @import "./productpage/productpage.css";
 @import "./payment/payment.css";
 @import "./confirmation/confirmation.css";
+@import "./sale/sale.css";
+@import "./sale/register-products.css";
+@import "./sale/registered-products.css";
