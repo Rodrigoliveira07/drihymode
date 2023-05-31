@@ -21,6 +21,12 @@
   padding: 20px;
 }
 
+.responsive-back a{
+  background-color: #000;
+  color: #fff;
+  padding: 15px 15px;
+}
+
 .sale-options{
 display: flex;
 flex-direction: column;
@@ -37,5 +43,17 @@ gap: 20px;
 @media (max-width: 640px){
   .sale-options a{
     padding: 20px 100px;
+  }
+}
+
+@media (max-width: 780px){
+  .responsive-back a{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-back2 a{
+    justify-content: none;
   }
 }
