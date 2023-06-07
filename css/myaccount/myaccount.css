@@ -1,0 +1,19 @@
+.usuario-img{
+  width: 100px;
+  height: auto;
+}
+
+.myaccount-edit{
+  background-color: #c4c4c4;
+  padding: 50px;
+}
+
+.usuario-detalhes{
+  padding: 50px;
+  gap: 20px;
+}
+
+.usuario-detalhes img{
+  max-width: 250px;
+  height: auto;
+}
