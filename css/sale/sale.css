@@ -57,3 +57,14 @@ gap: 20px;
     justify-content: none;
   }
 }
+
+@media (max-width: 800px){
+  .registered-products{
+    flex-direction: column;
+  }
+
+  .container-sale{
+    display: flex;
+    align-items: center;
+  }
+}
