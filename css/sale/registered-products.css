@@ -44,3 +44,9 @@
   background-color: #141414;
   color: #fff;
 }
+
+@media (max-width: 700px){
+  .admin-registered-products{
+    grid-template-columns: 1fr;
+  }
+}
